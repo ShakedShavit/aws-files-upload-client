@@ -1,6 +1,7 @@
 import Axios from 'axios';
 
-const url = 'http://localhost:5000/';
+// const url = 'http://localhost:5000/';
+const url = 'http://Fileuploadserver-env.eba-seavzisc.eu-west-1.elasticbeanstalk.com/';
 
 export const loginUserInDB = async (username, password) => {
     try {

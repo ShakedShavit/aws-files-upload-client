@@ -15,7 +15,7 @@ export const loginUserInDB = async (username, password) => {
         if (err.response.status === 400) {
             throw new Error(err.response.data);
         }
-        throw new Error(err.message);
+        throw new Error('Login failed');
     }
 };
 
